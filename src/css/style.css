@@ -1,10 +1,53 @@
-/*
-Author: Smart Code Media
-Project:  Aura
-Version:  1.0
+html,
+body {
+  height: 100%;
+  background: url(../img/background.jpg) center center;
+  background-size: cover; }
 
-==================
+#logo img {
+  width: 300px;
+  box-shadow: 0px 7px 4px -4px #000000; }
 
-====================*/
-/* 0. Vars
-*************************************/
+.info h3,
+.info h5 {
+  font-family: 'Bowlby One SC', cursive;
+  text-shadow: 1px 5px 3px #000000; }
+
+.info h3 {
+  font-size: 2.8rem; }
+
+.info h5 {
+  color: #ed0105;
+  font-size: 1.8rem; }
+
+#count .countdown {
+  background: #00000080;
+  border: 1px solid black;
+  padding: 5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem; }
+
+#subscribe button,
+#subscribe input {
+  border-radius: 0;
+  box-shadow: 0px 7px 4px -4px #000000; }
+
+#subscribe button {
+  text-shadow: 1px 1px 3px #000000; }
+
+#social i {
+  text-shadow: 1px 5px 3px #000000;
+  color: #ed0105; }
+  #social i:hover {
+    color: #a10103; }
+
+@media (max-width: 767px) {
+  #logo img {
+    width: 80%; }
+  .info h3,
+  .info h5 {
+    font-size: 2.6rem; }
+  #count .countdown {
+    font-size: 1.2rem; }
+  #social ul li a {
+    font-size: 10px; } }
